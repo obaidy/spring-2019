@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Baloo';
+  src: url('fonts/Baloo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('img/grid.png');
+}
+
+h1 {
+  font-family: 'Baloo', sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+}
+
+nav span {
+  line-height: 2rem;
+  margin: 0 1rem;
+}
+
+.box {
+  text-align: center;
+  width: 6rem;
+  height: 6rem;
+  margin: 1rem auto;
+  padding: 2.5rem 0rem;
+  border-left: 1rem solid black;
+  border-right: 1rem solid transparent;
+  border-radius: 3rem;
+  background-color: orange;
+  color: white;
+  overflow: hidden;
+}
+
+.pos1 {
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+}
