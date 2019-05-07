@@ -1,0 +1,34 @@
+main {
+    width: 800px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+article {
+    margin: 0 0.5em;
+}
+
+@media screen and (max-width: 810px) {
+
+    h2 {
+        color: red;
+    }
+
+    main {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        color: green;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+}

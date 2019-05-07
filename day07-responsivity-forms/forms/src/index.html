@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form action="" method="get">
+
+        <h3>Hidden:</h3>
+        <input type="hidden" name="is_user_robot" value="1">
+
+        <h3>Error</h3>
+        <input type="date">
+
+        <h3>Text:</h3>
+        <label for="first_name">First name:</label><br>
+        <input id="first_name" type="text" name="first_name" value="" placeholder="Type your name here" required>
+
+        <h3>Test:</h3>
+        <input type="text" name="asdfghjkl" value="" placeholder="Type anything here" autocomplete="off">
+
+        <h3>Textarea</h3>
+        <textarea name="biography" cols="30" rows="10" placeholder="put your bio here" autofocus>Here's some value</textarea>
+
+        <h3>Checkbox:</h3>
+        <label for="eula">Did you read the EULA?</label><br>
+        <input type="checkbox" name="eula" value="1" id="eula" checked>
+
+        <h3>Radiobutton</h3>
+        <label for="gender_female">Female</label>
+        <input id="gender_female" type="radio" name="gender" value="female" checked>
+        <label for="gender_male">Male</label>
+        <input id="gender_male" type="radio" name="gender" value="male">
+        <label for="gender_unknown">Unknown</label>
+        <input id="gender_unknown" type="radio" name="gender" value="unknown">
+
+        <h3>Select</h3>
+        <select name="size" id="">
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="x" selected>I don't know my size</option>
+        </select>
+
+        <h3>Submit:</h3>
+        <input type="submit" value="Click me to submit this form">
+
+    </form>
+    
+</body>
+</html>
