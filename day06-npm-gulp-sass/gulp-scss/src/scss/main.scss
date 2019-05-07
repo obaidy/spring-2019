@@ -1,0 +1,27 @@
+@import 'variables.scss';
+ 
+body {
+    color: $darker_blue;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+// client wanted this blue because he has no taste
+h1 {
+    background-color: lightblue;
+
+    border-bottom: 1px solid $red;
+}
+
+header {
+    height: 2 * $font_size + $menu_height;
+}
+
+footer {
+    color: $footer_font_color;
+    height: $size;
+    font-family: $font;
+}
+
+@import 'header.scss';
+
