@@ -1,0 +1,11 @@
+.container, 
+.container-fluid {
+    background-color: silver;
+}
+
+.row > * {
+    background-color: rgba(0, 128, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    border: 1px solid yellow;
+}
