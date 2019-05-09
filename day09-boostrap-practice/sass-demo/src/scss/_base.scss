@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+} 
+
+p {
+  @include media-breakpoint-up(sm) {
+    text-align: justify;
+  }
+}
+
+.banner {
+  background-color: lightgrey;
+
+  @media only screen and (min-width: 500px) {
+    background-color: blue;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+  
+  &__subtitle {
+    font-style: italic;
+  }
+}
